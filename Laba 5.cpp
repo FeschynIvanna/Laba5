@@ -1,7 +1,7 @@
 #include <iostream>
 #include <vector>
 //#include <algorithm>
-#include"Class 5.h"
+#include"Candy.h"
 using namespace std;
 
 int main() {
