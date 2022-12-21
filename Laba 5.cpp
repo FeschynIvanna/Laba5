@@ -17,7 +17,7 @@ int main() {
     veta.push_back(dark5);
     veta.push_back(dark2);
     Dinner din = Dinner(veta);
-    din.theMostExpensiveTop();
+    din.themostexpensivetop();
     cout << "_________________________" << endl;
 
     return 0;
