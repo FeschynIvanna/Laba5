@@ -21,6 +21,7 @@ public:
         amount = 0;
         price = 0;
     }
+    
     Candy(string name, float mass_in_gram, int amount, int price) {
         this->name = name;
         this->mass_in_gram = mass_in_gram;
@@ -39,6 +40,7 @@ public:
     }
 
     void sortcandy() {
+        int price;
         if (pieces.size() > 1) {
             for (int i = 0; i < pieces.size() - 1; i++) {
                 for (int k = 0; k < pieces.size() - i - 1; k++) {
@@ -49,7 +51,7 @@ public:
             }
         }
     }
-    void theMostExpensiveTop() {
+    void themostexpensivetop() {
         sortcandy();
         cout << "top candy:" << '\n'
             << pieces[0].name << " - " << pieces[0].price << '\n'
